@@ -91,5 +91,5 @@ li:nth-child(even) {
 }
 
 article p:first-child {
-  color: red;
+  color: #b91c1c;
 }
