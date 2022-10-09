@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.product {
+  border: px solid black;
+}
+.product-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: white;
+}
+
+.parasi {
+  font-size: 23px;
+}
+
+.shipping {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: darkred;
+}
+
+.baglanti:link,
+.baglanti:visited {
+  color: black;
+}
+.baglanti:hover,
+.baglanti:active {
+  text-decoration: none;
+}
+
+.bilgiler {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.bilgiler-listesi {
+  list-style: square;
+}
+
+.buton {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.buton:hover {
+  color: black;
+  background-color: white;
+}
