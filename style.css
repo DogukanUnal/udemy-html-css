@@ -63,6 +63,50 @@ li {
   text-decoration: none;
 }
 
+.renk {
+  background-color: black;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 12px;
+}
+.renk-mavi {
+  background-color: blue;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 12px;
+}
+.renk-kırmızı {
+  background-color: red;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 12px;
+}
+.renk-sarı {
+  background-color: yellow;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 12px;
+}
+.renk-yeşil {
+  background-color: green;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 12px;
+}
+.renk-kahverengi {
+  background-color: brown;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 12px;
+  margin-top: 30px;
+}
+
 .bilgiler {
   text-transform: uppercase;
   font-size: 15px;
@@ -93,4 +137,18 @@ li {
 .buton:hover {
   color: black;
   background-color: white;
+}
+
+.product::before {
+  content: "SALE";
+  background-color: red;
+  color: #f7f7f7;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: 35px;
+  left: 510px;
 }
