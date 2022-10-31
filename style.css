@@ -17,10 +17,13 @@ aside {
   padding: 10px 0;
 }
 
-.kutu {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+.product-img {
+  margin-right: 40px;
 }
 
 .product {
@@ -28,6 +31,7 @@ aside {
   width: 825px;
   margin: 50px auto;
 }
+
 .product-title {
   text-align: center;
   font-size: 22px;
@@ -42,6 +46,13 @@ li {
   margin-bottom: 8px;
 }
 
+.product-parasi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 .parasi {
   font-size: 23px;
 }
@@ -51,7 +62,11 @@ li {
   text-transform: uppercase;
   font-weight: bold;
   color: darkred;
-  margin-bottom: 20px;
+}
+
+.produc-baglanti {
+  margin-bottom: 60px;
+  margin-top: 20px;
 }
 
 .baglanti:link,
@@ -63,48 +78,32 @@ li {
   text-decoration: none;
 }
 
+.product-renkler {
+  display: flex;
+  gap: 10px;
+}
+
 .renk {
-  background-color: black;
   height: 22px;
   width: 22px;
-  display: inline-block;
-  margin-right: 12px;
+}
+.renk-siyah {
+  background-color: black;
 }
 .renk-mavi {
   background-color: blue;
-  height: 22px;
-  width: 22px;
-  display: inline-block;
-  margin-right: 12px;
 }
 .renk-kırmızı {
   background-color: red;
-  height: 22px;
-  width: 22px;
-  display: inline-block;
-  margin-right: 12px;
 }
 .renk-sarı {
   background-color: yellow;
-  height: 22px;
-  width: 22px;
-  display: inline-block;
-  margin-right: 12px;
 }
 .renk-yeşil {
   background-color: green;
-  height: 22px;
-  width: 22px;
-  display: inline-block;
-  margin-right: 12px;
 }
 .renk-kahverengi {
   background-color: brown;
-  height: 22px;
-  width: 22px;
-  display: inline-block;
-  margin-right: 12px;
-  margin-top: 30px;
 }
 
 .bilgiler {
