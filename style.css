@@ -17,11 +17,6 @@ aside {
   padding: 10px 0;
 }
 
-.container {
-  display: flex;
-  gap: 40px;
-}
-
 .product-img {
   margin-right: 40px;
 }
@@ -30,6 +25,12 @@ aside {
   border: 4px solid black;
   width: 825px;
   margin: 50px auto;
+  position: relative;
+
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: 250px 1fr 1fr;
+  grid-column: 1 / -1;
 }
 
 .product-title {
@@ -38,6 +39,7 @@ aside {
   text-transform: uppercase;
   background-color: white;
   padding: 15px;
+  grid-column: 1 / -1;
 }
 
 ul,
@@ -131,6 +133,7 @@ li {
   padding: 15px;
   width: 100%;
   border-top: 4px solid black;
+  grid-column: 1 / -1;
 }
 
 .buton:hover {
@@ -148,6 +151,6 @@ li {
   display: inline-block;
   padding: 5px 10px;
   position: absolute;
-  top: 35px;
-  left: 510px;
+  top: -15px;
+  left: -35px;
 }
